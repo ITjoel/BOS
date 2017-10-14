@@ -1,0 +1,3 @@
+127.0.0.1 - - [06/Oct/2017:16:27:34 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-1 648
+127.0.0.1 - - [06/Oct/2017:16:28:16 +0800] "GET /crm_management/services/customerService/customer/telephone/13511111111 HTTP/1.1" 200 107 http-bio-9998-exec-3 86
+127.0.0.1 - - [06/Oct/2017:16:28:16 +0800] "GET /crm_management/services/customerService/customer/updatetype/13511111111 HTTP/1.1" 204 - http-bio-9998-exec-4 10

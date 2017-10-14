@@ -1,0 +1,17 @@
+127.0.0.1 - - [27/Sep/2017:18:26:34 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 500 19543 http-bio-9998-exec-1 16776
+127.0.0.1 - - [27/Sep/2017:18:31:53 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-1 619
+127.0.0.1 - - [27/Sep/2017:19:45:21 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-1 610
+127.0.0.1 - - [27/Sep/2017:20:04:29 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-1 634
+127.0.0.1 - - [27/Sep/2017:20:07:26 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-3 60
+127.0.0.1 - - [27/Sep/2017:20:08:55 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-5 50
+127.0.0.1 - - [27/Sep/2017:20:09:49 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-7 27
+127.0.0.1 - - [27/Sep/2017:20:12:32 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-9 41
+127.0.0.1 - - [27/Sep/2017:21:12:42 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 404 - http-bio-9998-exec-1 0
+127.0.0.1 - - [27/Sep/2017:21:12:52 +0800] "GET /crm_management/services/customerService/customer/teltphone/13812344321 HTTP/1.1" 404 - http-bio-9998-exec-3 0
+127.0.0.1 - - [27/Sep/2017:21:16:38 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 404 - http-bio-9998-exec-1 0
+127.0.0.1 - - [27/Sep/2017:21:16:48 +0800] "GET /crm_management/services/customerService/customer/teltphone/13876544567 HTTP/1.1" 404 - http-bio-9998-exec-3 0
+127.0.0.1 - - [27/Sep/2017:21:18:42 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 404 - http-bio-9998-exec-1 0
+127.0.0.1 - - [27/Sep/2017:21:18:52 +0800] "GET /crm_management/services/customerService/customer/telephone/13890900909 HTTP/1.1" 404 - http-bio-9998-exec-3 0
+127.0.0.1 - - [27/Sep/2017:21:52:22 +0800] "POST /crm_management/services/customerService/customer HTTP/1.1" 204 - http-bio-9998-exec-1 405
+127.0.0.1 - - [27/Sep/2017:21:53:17 +0800] "GET /crm_management/services/customerService/customer/telephone/13866666666 HTTP/1.1" 200 107 http-bio-9998-exec-3 112
+127.0.0.1 - - [27/Sep/2017:21:53:17 +0800] "GET /crm_management/services/customerService/customer/updatetype/13866666666 HTTP/1.1" 204 - http-bio-9998-exec-4 14
