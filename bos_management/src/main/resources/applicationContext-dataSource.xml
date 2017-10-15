@@ -40,18 +40,18 @@
         <property name="jpaDialect">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
         </property>
-        <property name="jpaPropertyMap">
-            <map>
-                <entry key="hibernate.query.substitutions" value="true 1, false 0"/>
-                <entry key="hibernate.default_batch_fetch_size" value="16"/>
-                <entry key="hibernate.max_fetch_depth" value="2"/>
-                <entry key="hibernate.generate_statistics" value="true"/>
-                <entry key="hibernate.bytecode.use_reflection_optimizer"
-                       value="true"/>
-                <entry key="hibernate.cache.use_second_level_cache" value="false"/>
-                <entry key="hibernate.cache.use_query_cache" value="false"/>
-            </map>
-        </property>
+        <!-- <property name="jpaPropertyMap">
+             <map>
+                 <entry key="hibernate.query.substitutions" value="true 1, false 0"/>
+                 <entry key="hibernate.default_batch_fetch_size" value="16"/>
+                 <entry key="hibernate.max_fetch_depth" value="2"/>
+                 <entry key="hibernate.generate_statistics" value="true"/>
+                 <entry key="hibernate.bytecode.use_reflection_optimizer"
+                        value="true"/>
+                 <entry key="hibernate.cache.use_second_level_cache" value="false"/>
+                 <entry key="hibernate.cache.use_query_cache" value="false"/>
+             </map>
+         </property>-->
     </bean>
 
     <!-- JPA事务管理器  -->

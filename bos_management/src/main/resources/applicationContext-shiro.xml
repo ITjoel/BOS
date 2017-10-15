@@ -33,6 +33,14 @@
     <!--安全管理器-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="bosRealm"/>
+        <property name="cacheManager" ref="shiroCacheManager"/>
+    </bean>
+
+    <!--自定义realm-->
+    <!-- 自定义Realm -->
+    <bean id="bosRealm" class="cn.itcast.bos.realm.BosRealm">
+        <!-- 缓存区的名字 就是 ehcache.xml 自定义 cache的name -->
+        <property name="authorizationCacheName" value="bos"/>
     </bean>
 
     <!--后处理器-->
@@ -49,4 +57,6 @@
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
         <property name="securityManager" ref="securityManager"/>
     </bean>
+
+
 </beans>

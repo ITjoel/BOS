@@ -1,4 +1,4 @@
-package cn.itcast.bos.dao.realm;
+package cn.itcast.bos.dao.system;
 
 import cn.itcast.bos.domain.system.Permission;
 import org.springframework.data.jpa.repository.JpaRepository;

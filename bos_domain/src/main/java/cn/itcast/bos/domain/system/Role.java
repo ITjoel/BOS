@@ -3,6 +3,7 @@ package cn.itcast.bos.domain.system;
 import org.apache.struts2.json.annotations.JSON;
 import org.hibernate.annotations.Fetch;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,7 +14,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "T_ROLE")
-public class Role {
+public class Role implements Serializable {
     @Id
     @GeneratedValue
     @Column(name = "C_ID")

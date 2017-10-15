@@ -2,6 +2,7 @@ package cn.itcast.bos.service.system;
 
 import cn.itcast.bos.domain.system.Menu;
 import cn.itcast.bos.domain.system.Permission;
+import cn.itcast.bos.domain.system.User;
 
 import java.util.List;
 
@@ -13,4 +14,6 @@ public interface MenuService {
 
 
     void save(Menu menu);
+
+    List<Menu> findByUser(User user);
 }

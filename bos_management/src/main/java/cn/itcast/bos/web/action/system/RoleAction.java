@@ -33,4 +33,22 @@ public class RoleAction extends BaseAction<Role> {
         return SUCCESS;
     }
 
+    private String[] permissionIds;
+    private String menuIds;
+
+    public void setPermissionIds(String[] permissionIds) {
+        this.permissionIds = permissionIds;
+    }
+
+    public void setMenuIds(String menuIds) {
+        this.menuIds = menuIds;
+    }
+
+    @Action(value = "role_save", results = {@Result(name = "success", type = "redirect", location = "pages/system/role.html")})
+    public String save() {
+        //调用业务层
+        roleService.save(model, permissionIds, menuIds);
+        return SUCCESS;
+    }
+
 }

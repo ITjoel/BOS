@@ -2,6 +2,7 @@ package cn.itcast.bos.domain.system;
 
 import org.apache.struts2.json.annotations.JSON;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,7 +13,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "T_MENU")
-public class Menu {
+public class Menu implements Serializable {
     @Id
     @GeneratedValue
     @Column(name = "C_ID")

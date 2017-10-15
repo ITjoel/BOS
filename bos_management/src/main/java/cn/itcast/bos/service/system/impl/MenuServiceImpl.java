@@ -1,8 +1,8 @@
 package cn.itcast.bos.service.system.impl;
 
-import cn.itcast.bos.dao.realm.MenuRepository;
+import cn.itcast.bos.dao.system.MenuRepository;
 import cn.itcast.bos.domain.system.Menu;
-import cn.itcast.bos.domain.system.Permission;
+import cn.itcast.bos.domain.system.User;
 import cn.itcast.bos.service.system.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,5 +31,14 @@ public class MenuServiceImpl implements MenuService {
             menu.setParentMenu(null);
         }
         menuRepository.save(menu);
+    }
+
+    @Override
+    public List<Menu> findByUser(User user) {
+        if (user.getUsername().equals("admin")) {
+            return menuRepository.findAll();
+        } else {
+            return menuRepository.findByUser(user.getId());
+        }
     }
 }

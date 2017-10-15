@@ -4,6 +4,7 @@ import org.hibernate.annotations.NamedQueries;
 import org.hibernate.annotations.NamedQuery;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -12,7 +13,7 @@ import java.util.Date;
 @Entity
 @Table(name = "T_STANDARD")
 @NamedQueries({@NamedQuery(name = "Standard.queryName2", query = "from Standard where name = ?")})
-public class Standard {
+public class Standard implements Serializable {
     @Id
     @GeneratedValue
     @Column(name = "C_ID")

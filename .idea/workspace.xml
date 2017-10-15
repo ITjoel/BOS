@@ -7,33 +7,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2b4587-412b-4efa-bb65-fb3f460a67a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/MenuRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/PermissionAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/courier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/courier1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/mark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/position.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/start.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/storage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/images/icon1/vehicle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/transit/DeliveryInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/transit/InOutStorageInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/transit/SignInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/transit/TransitInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/system/MenuRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-cache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/data/transit.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/transit/transitinfo.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/MenuRepository.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/target/bos_domain-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/bos_domain/target/bos_domain-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/base/Standard.class" afterPath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/base/Standard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/Menu.class" afterPath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/Menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/Permission.class" afterPath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/Permission.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/Role.class" afterPath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/User.class" afterPath="$PROJECT_DIR$/bos_domain/target/classes/cn/itcast/bos/domain/system/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_sms/target/bos_sms.war" afterPath="$PROJECT_DIR$/bos_sms/target/bos_sms.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_sms/target/bos_sms/WEB-INF/classes/cn/itcast/bos/utils/SmsUtils.class" afterPath="$PROJECT_DIR$/bos_sms/target/bos_sms/WEB-INF/classes/cn/itcast/bos/utils/SmsUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bos_fore_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bos_fore_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bos_management_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bos_management_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bos_sms_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bos_sms_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/crm_management_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/crm_management_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/bos_domain.iml" afterPath="$PROJECT_DIR$/bos_domain/bos_domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/base/Standard.java" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/base/Standard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Menu.java" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Menu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Permission.java" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Permission.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Role.java" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/CourierServiceImpl.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/CourierServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/PermissionService.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/PermissionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/User.java" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_fore/bos_fore.iml" afterPath="$PROJECT_DIR$/bos_fore/bos_fore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/bos_management.iml" afterPath="$PROJECT_DIR$/bos_management/bos_management.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/realm/BosRealm.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/realm/BosRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/StandardServiceImpl.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/StandardServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/UserService.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/PermissionServiceImpl.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/PermissionServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/UserAction.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/UserAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-dataSource.xml" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-dataSource.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-shiro.xml" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-shiro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu_add.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission_add.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role_add.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role_add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userinfo.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userinfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userlist.html" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_sms/bos_sms.iml" afterPath="$PROJECT_DIR$/bos_sms/bos_sms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_sms/target/bos_sms/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/bos_sms/target/bos_sms/WEB-INF/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_sms/target/bos_sms/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/bos_sms/target/bos_sms/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_sms/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bos_sms/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_parent/common_parent.iml" afterPath="$PROJECT_DIR$/common_parent/common_parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_parent/pom.xml" afterPath="$PROJECT_DIR$/common_parent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm_domain/crm_domain.iml" afterPath="$PROJECT_DIR$/crm_domain/crm_domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm_management/crm_management.iml" afterPath="$PROJECT_DIR$/crm_management/crm_management.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/PermissionRepository.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/system/PermissionRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/RoleRepository.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/system/RoleRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/UserRepository.java" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/system/UserRepository.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/common_parent/bin/" />
@@ -119,6 +162,38 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@orcle_bos_2.0" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="BOS" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@orcle_bos_2.0" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="BOS" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -127,76 +202,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RoleAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="role_add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role_add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-870">
-              <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="role.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1095">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -218,7 +224,6 @@
       <find>searchWindow</find>
       <find>searchBtn</find>
       <find>doAdd</find>
-      <find>addWindow</find>
       <find>save</find>
       <find>subfixedFrom</find>
       <find>jed</find>
@@ -240,6 +245,7 @@
       <find>tt</find>
       <find>AuthenticationToken</find>
       <find>servlet</find>
+      <find>addWindow</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -260,57 +266,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/SubAreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/take_delivery/WayBill.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/index/WayBillIndexRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/pom.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-elasticsearch.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/js/tojson/tojson.js" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/take_delivery/WayBillAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/WayBillService.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_manage.html" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/impl/WayBillServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common_parent/pom.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/unauthorized.html" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/realm/UserService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/UserService.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/UserRepository.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f706014b-0631-494a-a1f3-86c2eb92e610/console.sql" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/RoleService.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/RoleRepository.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/PermissionRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/realm/BosRealm.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/constant/Constants.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/UserAction.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-dataSource.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/CourierServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-shiro.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/MenuRepository.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu_add.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission.html" />
-        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Permission.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission_add.html" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/PermissionAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/PermissionService.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Role.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role.html" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role_add.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/UserAction.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/UserService.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userinfo.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userlist.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/system/MenuRepository.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/common_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/realm/BosRealm.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-dataSource.xml" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/User.java" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Role.java" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Permission.java" />
         <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Menu.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-shiro.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/base/Standard.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/StandardServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-cache.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f706014b-0631-494a-a1f3-86c2eb92e610/console.sql" />
       </list>
     </option>
   </component>
@@ -373,46 +379,8 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="common_parent" />
+          <option name="myItemId" value="bos_management" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="common_parent" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="bos_sms" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="bos_sms" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Run Configurations" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RunConfigurationsNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -424,29 +392,9 @@
           <option name="myItemId" value="bos_management" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
-      </PATH>
-      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="bos_domain" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="bos_domain" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+          <option name="myItemId" value="Run Configurations" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RunConfigurationsNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -492,7 +440,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -505,28 +452,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos_2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos_2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common_parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -535,30 +469,30 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="simpleauth&#9;PSI&#9;JAVA://org.apache.shiro.authc.SimpleAuthenticationInfo&#10;ser&#9;FILE&#9;jar://D:/develop/Java/jdk1.8.0/src.zip!/java/io/Serializable.java&#10;delegatingFilter&#9;PSI&#9;JAVA://org.springframework.web.filter.DelegatingFilterProxy&#10;shiroFilter&#9;PSI&#9;JAVA://org.apache.shiro.web.servlet.ShiroFilter&#10;fileuploadin&#9;PSI&#9;JAVA://org.apache.struts2.interceptor.FileUploadInterceptor&#10;900&#9;FILE&#9;jar://D:/develop/maven/repository_ssh/org/apache/poi/poi-ooxml-schemas/3.11/poi-ooxml-schemas-3.11.jar!/schemaorg_apache_xmlbeans/system/sE130CAA0A01A7CDE5A2B4FEB8B311707/handoutmaster9002doctype.xsb&#10;9001&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="httpservlet&#9;PSI&#9;JAVA://javax.servlet.http.HttpServlet&#10;servlet&#9;PSI&#9;JAVA://javax.servlet.Servlet&#10;userSer&#9;FILE&#9;file://D:/develop/workspaceidea/bos_2.0/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java&#10;userService&#9;FILE&#9;file://D:/develop/workspaceidea/bos_2.0/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java&#10;roleServiceIm&#9;FILE&#9;file://D:/develop/workspaceidea/bos_2.0/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java&#10;permissionServiceIm&#9;FILE&#9;file://D:/develop/workspaceidea/bos_2.0/bos_management/src/main/java/cn/itcast/bos/service/system/impl/PermissionServiceImpl.java&#10;simpleauth&#9;PSI&#9;JAVA://org.apache.shiro.authc.SimpleAuthenticationInfo&#10;ser&#9;FILE&#9;jar://D:/develop/Java/jdk1.8.0/src.zip!/java/io/Serializable.java&#10;delegatingFilter&#9;PSI&#9;JAVA://org.springframework.web.filter.DelegatingFilterProxy&#10;shiroFilter&#9;PSI&#9;JAVA://org.apache.shiro.web.servlet.ShiroFilter&#10;fileuploadin&#9;PSI&#9;JAVA://org.apache.struts2.interceptor.FileUploadInterceptor&#10;900&#9;FILE&#9;jar://D:/develop/maven/repository_ssh/org/apache/poi/poi-ooxml-schemas/3.11/poi-ooxml-schemas-3.11.jar!/schemaorg_apache_xmlbeans/system/sE130CAA0A01A7CDE5A2B4FEB8B311707/handoutmaster9002doctype.xsb&#10;9001&#9;null&#9;null" />
     <property name="extract.method.default.visibility" value="public" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\workspaceidea\bos_2.0\bos_fore\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain" />
+      <recent name="D:\develop\workspaceidea\bos_2.0\bos_management\src\main\webapp\images" />
+      <recent name="D:\develop\workspaceidea\bos_2.0\bos_management\src\main\webapp\data" />
+      <recent name="D:\develop\workspaceidea\bos_2.0\bos_management\src\main\webapp\pages\transit" />
+      <recent name="D:\develop\workspaceidea\bos_2.0\bos_management\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.bos.domain.page" />
+      <recent name="activeMQ_helloworld" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.itcast.bos.dao.realm" />
       <recent name="cn.itcast.bos.service.system" />
       <recent name="cn.itcast.bos.service" />
       <recent name="cn.itcast.bos.service.realm" />
       <recent name="cn.itcast.bos.dao.take_delivery" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develop\workspaceidea\bos_2.0\bos_management\src\main\resources" />
-      <recent name="D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\system" />
-      <recent name="D:\develop\workspaceidea\bos_2.0\bos_management\src\main\webapp\pages\base" />
-      <recent name="D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\take_delivery" />
-      <recent name="D:\develop\workspaceidea\bos_2.0\bos_fore\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.itcast.bos.domain.page" />
-      <recent name="activeMQ_helloworld" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\develop\workspaceidea\bos_2.0\bos_fore\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1255,6 +1189,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1301,7 +1238,9 @@
       <workItem from="1507618596725" duration="12247000" />
       <workItem from="1507697534291" duration="44089000" />
       <workItem from="1507856695519" duration="2664000" />
-      <workItem from="1507864869834" duration="58147000" />
+      <workItem from="1507864869834" duration="62838000" />
+      <workItem from="1508052841459" duration="889000" />
+      <workItem from="1508061768456" duration="18384000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://gitee.com/it_joel/bos_2.0&#10;&#10;# Conflicts:&#10;#&#9;.idea/artifacts/bos_management_war_exploded.xml&#10;#&#9;.idea/artifacts/crm_management_war_exploded.xml&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.local.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610.xml&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata.keystream&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata.keystream.len&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata.len&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata_i&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata_i.len&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/storage.xml&#10;#&#9;.idea/libraries/Maven__antlr_antlr_2_7_7.xml&#10;#&#9;.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml&#10;#&#9;.idea/libraries/Maven__asm_asm_3_3_1.xml&#10;#&#9;.idea/libraries/Maven__asm_asm_commons_3_3.xml&#10;#&#9;.idea/libraries/Maven__asm_asm_tree_3_3.xml&#10;#&#9;.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml&#10;#&#9;.idea/libraries/Maven__com_alibaba_fastjson_1_1_37.xml&#10;#&#9;.idea/libraries/Maven__com_belerweb_pinyin4j_2_5_0.xml&#10;#&#9;.idea/libraries/Maven__com_colobu_fastjson_jaxrs_json_provider_0_3_1.xml&#10;#&#9;.idea/libraries/Maven__com_google_guava_guava_r09.xml&#10;#&#9;.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml&#10;#&#9;.idea/libraries/Maven__com_google_inject_guice_3_0.xml&#10;#&#9;.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_1_0.xml&#10;#&#9;.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_10_b140310_1920.xml&#10;#&#9;.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_10_b140310_1920.xml&#10;#&#9;.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml&#10;#&#9;.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml&#10;#&#9;.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml&#10;#&#9;.idea/libraries/Maven__commons_io_commons_io_2_2.xml&#10;#&#9;.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml&#10;#&#9;.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml&#10;#&#9;.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml&#10;#&#9;.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml&#10;#&#9;.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml&#10;#&#9;.idea/libraries/Maven__javax_inject_javax_inject_1.xml&#10;#&#9;.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml&#10;#&#9;.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0.xml&#10;#&#9;.idea/libraries/Maven__log4j_log4j_1_2_17.xml&#10;#&#9;.idea/libraries/Maven__ognl_ognl_3_0_6.xml&#10;#&#9;.idea/libraries/Maven__org_apache_activemq_activemq_all_5_2_0.xml&#10;#&#9;.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_core_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_extension_providers_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_neethi_neethi_3_0_3.xml&#10;#&#9;.idea/libraries/Maven__org_apache_poi_poi_3_11.xml&#10;#&#9;.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_11.xml&#10;#&#9;.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_11.xml&#10;#&#9;.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_1_0.xml&#10;#&#9;.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml&#10;#&#9;.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_6.xml&#10;#&#9;.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_6.xml&#10;#&#9;.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml&#10;#&#9;.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml&#10;#&#9;.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_0.xml&#10;#&#9;.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml&#10;#&#9;.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_0_Final.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_1_Final.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_1_Final.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml&#10;#&#9;.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml&#10;#&#9;.idea/libraries/Maven__org_jboss_jandex_1_2_2_Final.xml&#10;#&#9;.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml&#10;#&#9;.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml&#10;#&#9;.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml&#10;#&#9;.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_0_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_0_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_4_1_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_aspects_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_context_support_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_jms_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_messaging_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_orm_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__redis_clients_jedis_2_6_2.xml&#10;#&#9;.idea/libraries/Maven__stax_stax_api_1_0_1.xml&#10;#&#9;.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml&#10;#&#9;.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml&#10;#&#9;.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;bos_management/bos_management.iml&#10;#&#9;common_parent/common_parent.iml&#10;#&#9;crm_domain/crm_domain.iml&#10;#&#9;crm_management/crm_management.iml">
       <created>1506420384442</created>
@@ -1352,7 +1291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507951384357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://gitee.com/it_joel/bos_2.0&#10;&#10;# Conflicts:&#10;#&#9;.idea/artifacts/bos_management_war_exploded.xml&#10;#&#9;.idea/artifacts/crm_management_war_exploded.xml&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.local.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610.xml&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata.keystream&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata.keystream.len&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata.len&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata_i&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/_metadata_/metadata_i.len&#10;#&#9;.idea/dataSources/f706014b-0631-494a-a1f3-86c2eb92e610/storage.xml&#10;#&#9;.idea/libraries/Maven__antlr_antlr_2_7_7.xml&#10;#&#9;.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml&#10;#&#9;.idea/libraries/Maven__asm_asm_3_3_1.xml&#10;#&#9;.idea/libraries/Maven__asm_asm_commons_3_3.xml&#10;#&#9;.idea/libraries/Maven__asm_asm_tree_3_3.xml&#10;#&#9;.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml&#10;#&#9;.idea/libraries/Maven__com_alibaba_fastjson_1_1_37.xml&#10;#&#9;.idea/libraries/Maven__com_belerweb_pinyin4j_2_5_0.xml&#10;#&#9;.idea/libraries/Maven__com_colobu_fastjson_jaxrs_json_provider_0_3_1.xml&#10;#&#9;.idea/libraries/Maven__com_google_guava_guava_r09.xml&#10;#&#9;.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml&#10;#&#9;.idea/libraries/Maven__com_google_inject_guice_3_0.xml&#10;#&#9;.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_1_0.xml&#10;#&#9;.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_10_b140310_1920.xml&#10;#&#9;.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_10_b140310_1920.xml&#10;#&#9;.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml&#10;#&#9;.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml&#10;#&#9;.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml&#10;#&#9;.idea/libraries/Maven__commons_io_commons_io_2_2.xml&#10;#&#9;.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml&#10;#&#9;.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml&#10;#&#9;.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml&#10;#&#9;.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml&#10;#&#9;.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml&#10;#&#9;.idea/libraries/Maven__javax_inject_javax_inject_1.xml&#10;#&#9;.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml&#10;#&#9;.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0.xml&#10;#&#9;.idea/libraries/Maven__log4j_log4j_1_2_17.xml&#10;#&#9;.idea/libraries/Maven__ognl_ognl_3_0_6.xml&#10;#&#9;.idea/libraries/Maven__org_apache_activemq_activemq_all_5_2_0.xml&#10;#&#9;.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_core_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_extension_providers_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_0_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml&#10;#&#9;.idea/libraries/Maven__org_apache_neethi_neethi_3_0_3.xml&#10;#&#9;.idea/libraries/Maven__org_apache_poi_poi_3_11.xml&#10;#&#9;.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_11.xml&#10;#&#9;.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_11.xml&#10;#&#9;.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_2.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_24.xml&#10;#&#9;.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_1_0.xml&#10;#&#9;.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml&#10;#&#9;.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_6.xml&#10;#&#9;.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_6.xml&#10;#&#9;.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml&#10;#&#9;.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml&#10;#&#9;.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_0.xml&#10;#&#9;.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml&#10;#&#9;.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_0_Final.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_1_Final.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_1_Final.xml&#10;#&#9;.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml&#10;#&#9;.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml&#10;#&#9;.idea/libraries/Maven__org_jboss_jandex_1_2_2_Final.xml&#10;#&#9;.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml&#10;#&#9;.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml&#10;#&#9;.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml&#10;#&#9;.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_0_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_0_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_4_1_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_aspects_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_context_support_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_jms_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_messaging_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_orm_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml&#10;#&#9;.idea/libraries/Maven__redis_clients_jedis_2_6_2.xml&#10;#&#9;.idea/libraries/Maven__stax_stax_api_1_0_1.xml&#10;#&#9;.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml&#10;#&#9;.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml&#10;#&#9;.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;bos_management/bos_management.iml&#10;#&#9;common_parent/common_parent.iml&#10;#&#9;crm_domain/crm_domain.iml&#10;#&#9;crm_management/crm_management.iml">
+      <created>1508026986463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508026986463</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1385,7 +1331,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="449518000" />
+    <option name="totallyTimeSpent" value="473482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1413,29 +1359,29 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40467837" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49356222" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888889" sideWeight="0.66255367" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3508772" sideWeight="0.66148067" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07836258" sideWeight="0.66255367" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39532164" sideWeight="0.66148067" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49570817" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26770386" sideWeight="0.4913928" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31276825" sideWeight="0.4913928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2654971" sideWeight="0.49570817" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24248926" sideWeight="0.5086072" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5040936" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29774678" sideWeight="0.5040936" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49356222" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3299356" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5040936" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1445,12 +1391,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41988304" sideWeight="0.33744636" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.4914163" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1462,13 +1408,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888889" sideWeight="0.66255367" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41988304" sideWeight="0.66148067" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07836258" sideWeight="0.66255367" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24210526" sideWeight="0.66148067" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49570817" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26770386" sideWeight="0.4913928" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31276825" sideWeight="0.4913928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2654971" sideWeight="0.49570817" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3299356" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24248926" sideWeight="0.5086072" order="6" side_tool="true" content_ui="tabs" />
@@ -1505,60 +1451,307 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="324">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_WAY_BILL">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_ORDER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/PermissionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#1057#1058#0" expanded="false" />
+            <element signature="e#1110#1111#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/order.html">
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
+        <state relative-caret-position="592">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="e#942#943#0" expanded="false" />
+            <element signature="e#989#990#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="351">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/constant/Constants.java">
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userinfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-dataSource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="62" column="91" lean-forward="false" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+        <state relative-caret-position="244">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2363#2364#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/take_delivery/Order.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.3.2/shiro-all-1.3.2.jar!/org/apache/shiro/SecurityUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="243">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.bos.web.action.system.MenuAction">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.bos.web.action.system.MenuAction</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.itcast.bos.web.action.system.MenuAction</node>
+            <node x="" y="">cn.itcast.bos.web.action.common.BaseAction</node>
+            <node x="" y="">com.opensymphony.xwork2.ModelDriven</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+            <node x="" y="">org.springframework.context.annotation.Scope</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">com.opensymphony.xwork2.Validateable</node>
+            <node x="" y="">com.opensymphony.xwork2.LocaleProvider</node>
+            <node x="" y="">com.opensymphony.xwork2.ActionSupport</node>
+            <node x="" y="">org.apache.struts2.convention.annotation.ParentPackage</node>
+            <node x="" y="">com.opensymphony.xwork2.ValidationAware</node>
+            <node x="" y="">org.apache.struts2.convention.annotation.Namespace</node>
+            <node x="" y="">com.opensymphony.xwork2.Action</node>
+            <node x="" y="">com.opensymphony.xwork2.TextProvider</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9414141414141414" x="732.5" y="346.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/javax.servlet.Servlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.servlet.Servlet</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.servlet.Servlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="17.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/javax.servlet.http.HttpServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.servlet.http.HttpServlet</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.servlet.ServletConfig</node>
+            <node x="" y="">javax.servlet.http.HttpServlet</node>
+            <node x="" y="">javax.servlet.GenericServlet</node>
+            <node x="" y="">javax.servlet.Servlet</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="227.5" y="102.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="306" column="42" lean-forward="true" selection-start-line="306" selection-start-column="42" selection-end-line="306" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="113" column="16" lean-forward="true" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/system/MenuRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1567,420 +1760,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="152" column="54" lean-forward="false" selection-start-line="152" selection-start-column="43" selection-end-line="152" selection-end-column="54" />
+        <state relative-caret-position="610">
+          <caret line="35" column="63" lean-forward="true" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
           <folding>
-            <marker date="1507950294825" expanded="true" signature="4146:4185" ph="..." />
-            <marker date="1507950294825" expanded="true" signature="4324:4356" ph="..." />
+            <marker date="1508073513336" expanded="true" signature="4152:4191" ph="..." />
+            <marker date="1508073513336" expanded="true" signature="4330:4362" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/take_delivery/OrderAction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/ehcache/ehcache-core/2.6.9/ehcache-core-2.6.9.jar!/ehcache-failsafe.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_ROLE_PERMISSION">
-      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="117" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="117" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_PROMOTION">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_ROLE">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_MENU">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/dao/realm/MenuRepository.java">
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="-3">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/take_delivery/WorkBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/take_delivery/WayBillAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/WayBillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/impl/WayBillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="59" column="60" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="61" column="69" lean-forward="true" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.8.0/jre/lib/rt.jar!/sun/nio/ch/Iocp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="240" column="82" lean-forward="true" selection-start-line="240" selection-start-column="82" selection-end-line="240" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/MenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/MenuAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/CourierServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_AREA">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-elasticsearch.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common_parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="287" column="20" lean-forward="true" selection-start-line="287" selection-start-column="20" selection-end-line="287" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/take_delivery/WayBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1809">
-          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/index/WayBillIndexRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/permission_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <element signature="e#1109#1110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/PermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_WAY_BILL">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_ORDER">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_PERMISSION">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/PermissionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#2994#2995#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        <state relative-caret-position="81">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/system/RoleService.java">
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/system/RoleAction.java">
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/web/action/base/CourierAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1095">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="375">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/role_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_COURIER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_PERMISSION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/system/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-dataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="260" column="61" lean-forward="false" selection-start-line="260" selection-start-column="52" selection-end-line="260" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/realm/BosRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/base/Standard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-cache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f706014b-0631-494a-a1f3-86c2eb92e610/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/data/transit.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/itcast/bos/domain/transit/SignInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/transit/transitinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f7208786/f706014b-0631-494a-a1f3-86c2eb92e610/BOS.T_MENU">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/itcast/bos/service/base/impl/StandardServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="84" lean-forward="false" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -50,15 +50,28 @@
 
             // 点击保存
             $('#save').click(function () {
+                // 获取ztree勾选节点集合
+                var treeObj = $.fn.zTree.getZTreeObj("menuTree");
+                var nodes = treeObj.getCheckedNodes(true);
+                // 获取所有节点id
+                var array = new Array();
+                for (var i = 0; i < nodes.length; i++) {
+                    array.push(nodes[i].id);
+                }
+                var menuIds = array.join(",");
+                $("input[name='menuIds']").val(menuIds);
+
+                // 提交form
                 if ($("#roleForm").form('validate')) {
                     $("#roleForm").submit();
                 }
             });
 
+            // 页面加载后， 获取所有权限数据，生成checkbox列表
             $.get("../../permission_list.action", function (data) {
-                //生成checkbox列表
+                // 生成checkbox列表
                 $(data).each(function () {
-                    var checkbox = $("<input type='checkbox' name='permissionTD'/>");
+                    var checkbox = $("<input type='checkbox' name='permissionIds' />");
                     checkbox.val(this.id);
                     $("#permissionTD").append(checkbox);
                     $("#permissionTD").append(this.name);
@@ -107,6 +120,7 @@
             <tr>
                 <td>菜单授权</td>
                 <td>
+                    <input id="menuIds" type="hidden">
                     <ul id="menuTree" class="ztree"></ul>
                 </td>
             </tr>

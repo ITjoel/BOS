@@ -1,6 +1,6 @@
 package cn.itcast.bos.service.system.impl;
 
-import cn.itcast.bos.dao.realm.PermissionRepository;
+import cn.itcast.bos.dao.system.PermissionRepository;
 import cn.itcast.bos.domain.system.Permission;
 import cn.itcast.bos.domain.system.User;
 import cn.itcast.bos.service.system.PermissionService;

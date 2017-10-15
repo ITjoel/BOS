@@ -22,7 +22,7 @@ import java.util.Set;
 /**
  * Created by ${joel} on 2017/10/13 0013.
  */
-@Service("bosRealm")
+//@Service("bosRealm")
 public class BosRealm extends AuthorizingRealm {
 
     @Autowired

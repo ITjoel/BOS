@@ -14,4 +14,5 @@ public interface RoleService {
     List<Role> findAll();
 
 
+    void save(Role model, String[] permissionIds, String menuIds);
 }

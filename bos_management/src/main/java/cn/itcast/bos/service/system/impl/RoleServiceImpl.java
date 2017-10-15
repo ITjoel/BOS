@@ -1,6 +1,8 @@
 package cn.itcast.bos.service.system.impl;
 
-import cn.itcast.bos.dao.realm.RoleRepository;
+import cn.itcast.bos.dao.system.RoleRepository;
+import cn.itcast.bos.domain.system.Menu;
+import cn.itcast.bos.domain.system.Permission;
 import cn.itcast.bos.domain.system.Role;
 import cn.itcast.bos.domain.system.User;
 import cn.itcast.bos.service.system.RoleService;
@@ -32,6 +34,28 @@ public class RoleServiceImpl implements RoleService {
     @Override
     public List<Role> findAll() {
         return roleRepository.findAll();
+    }
+
+    @Override
+    public void save(Role role, String[] permissionIds, String menuIds) {
+
+        //保存权限
+        if (permissionIds != null) {
+            for (String permissionId : permissionIds) {
+                Permission permission = new Permission();
+                permission.setId(Integer.parseInt(permissionId));
+                role.getPermissions().add(permission);
+            }
+        }
+        //保存菜单
+        if (menuIds != null) {
+            Menu menu = new Menu();
+            menu.setId(Integer.parseInt(menuIds));
+            role.getMenus().add(menu);
+        }
+
+        //保存角色
+        roleRepository.save(role);
     }
 
 
