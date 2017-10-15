@@ -1,5 +1,7 @@
 package cn.itcast.bos.domain.system;
 
+import org.apache.struts2.json.annotations.JSON;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -55,6 +57,7 @@ public class Permission {
         this.keyword = keyword;
     }
 
+    @JSON(serialize = false)
     public Set<Role> getRoles() {
         return roles;
     }

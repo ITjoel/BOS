@@ -1,5 +1,6 @@
 package cn.itcast.bos.domain.system;
 
+import org.apache.struts2.json.annotations.JSON;
 import org.hibernate.annotations.Fetch;
 
 import java.util.HashSet;
@@ -71,6 +72,7 @@ public class Role {
         this.description = description;
     }
 
+    @JSON(serialize = false)
     public Set<User> getUsers() {
         return users;
     }
@@ -79,6 +81,7 @@ public class Role {
         this.users = users;
     }
 
+    @JSON(serialize = false)
     public Set<Permission> getPermissions() {
         return permissions;
     }
@@ -87,6 +90,7 @@ public class Role {
         this.permissions = permissions;
     }
 
+    @JSON(serialize = false)
     public Set<Menu> getMenus() {
         return menus;
     }

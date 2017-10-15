@@ -28,4 +28,11 @@ public class RoleServiceImpl implements RoleService {
             return roleRepository.findByUser(user.getId());
         }
     }
+
+    @Override
+    public List<Role> findAll() {
+        return roleRepository.findAll();
+    }
+
+
 }

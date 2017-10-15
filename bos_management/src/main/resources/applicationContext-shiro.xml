@@ -24,6 +24,7 @@
                 /images/** = anon
                 /services/** = anon
                 /pages/base/courier.html* = perms[courier:list]
+                /pages/base/standard.html* = roles[qupai]
                 /pages/base/area.html* = roles[base]
                 /** = authc
             </value>
@@ -37,4 +38,15 @@
     <!--后处理器-->
     <bean id="lifecycleBeanPostProcessor"
           class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+    <!-- 开启shiro注解模式  -->
+    <bean
+            class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+            depends-on="lifecycleBeanPostProcessor">
+        <property name="proxyTargetClass" value="true"/>
+    </bean>
+
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
 </beans>

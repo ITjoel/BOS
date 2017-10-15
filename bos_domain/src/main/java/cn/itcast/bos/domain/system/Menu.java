@@ -1,17 +1,11 @@
 package cn.itcast.bos.domain.system;
 
+import org.apache.struts2.json.annotations.JSON;
+
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * @description:菜单
@@ -37,6 +31,15 @@ public class Menu {
 
     @OneToMany(mappedBy = "parentMenu")
     private Set<Menu> childrenMenus = new HashSet<Menu>();
+
+    @Transient
+    public Integer getpId() {
+        if (parentMenu == null) {
+            return 0;
+        } else {
+            return parentMenu.getId();
+        }
+    }
 
     @ManyToOne
     @JoinColumn(name = "C_PID")
@@ -82,6 +85,7 @@ public class Menu {
         this.description = description;
     }
 
+    @JSON(serialize = false)
     public Set<Role> getRoles() {
         return roles;
     }
@@ -90,6 +94,7 @@ public class Menu {
         this.roles = roles;
     }
 
+    @JSON(serialize = false)
     public Set<Menu> getChildrenMenus() {
         return childrenMenus;
     }
