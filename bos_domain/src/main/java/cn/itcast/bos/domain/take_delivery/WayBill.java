@@ -11,6 +11,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import cn.itcast.bos.domain.base.Area;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldIndex;
@@ -214,6 +215,7 @@ public class WayBill implements Serializable {
         this.recCompany = recCompany;
     }
 
+    @JsonIgnore
     public Area getRecArea() {
         return recArea;
     }

@@ -94,7 +94,7 @@
             checkbox: true,
         }, {
             field: 'showid',
-            title: '分拣编号',
+            title: '分区编号',
             width: 120,
             align: 'center',
             formatter: function (data, row, index) {
@@ -139,12 +139,12 @@
             width: 120,
             align: 'center'
         }, {
-            field: 'startnum',
+            field: 'startNum',
             title: '起始号',
             width: 100,
             align: 'center'
         }, {
-            field: 'endnum',
+            field: 'endNum',
             title: '终止号',
             width: 100,
             align: 'center'
@@ -228,7 +228,7 @@
 
             // 导入数据
             $("#button-import").upload({
-                action: '../../area_batchImport.action',
+                action: '../../subarea_batchImport.action',
                 onSelect: function () {
                     // 关闭自动提交
                     this.autoSubmit = false;
@@ -301,7 +301,7 @@
                     <td colspan="2">分区信息</td>
                 </tr>
                 <tr>
-                    <td>分拣编码</td>
+                    <td>分区编码</td>
                     <td>
                         <input type="text" name="id" class="easyui-validatebox" required="true"/>
                     </td>

@@ -3,12 +3,16 @@ D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\t
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\system\Permission.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\take_delivery\Order.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\system\User.java
+D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\transit\SignInfo.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\take_delivery\Promotion.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\base\Vehicle.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\page\PageBean.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\system\Menu.java
+D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\transit\DeliveryInfo.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\constant\Constants.java
+D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\transit\InOutStorageInfo.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\base\SubArchive.java
+D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\transit\TransitInfo.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\base\Area.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\system\Role.java
 D:\develop\workspaceidea\bos_2.0\bos_domain\src\main\java\cn\itcast\bos\domain\base\Archive.java

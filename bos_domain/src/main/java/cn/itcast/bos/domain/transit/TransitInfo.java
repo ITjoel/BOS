@@ -3,15 +3,7 @@ package cn.itcast.bos.domain.transit;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
-import javax.persistence.OrderColumn;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import cn.itcast.bos.domain.take_delivery.WayBill;
 
@@ -33,18 +25,33 @@ public class TransitInfo {
     @OneToMany
     @JoinColumn(name = "C_TRANSIT_INFO_ID")
     @OrderColumn(name = "C_IN_OUT_INDEX")
-    private List<InOutStorageInfo> inOutStorageInfos = new ArrayList<InOutStorageInfo>();
+    private List<InOutStorageInfo> inOutStorageInfos = new ArrayList<InOutStorageInfo>();//出入库信息
+
+    @Transient
+    public String getTransferInfo() {
+        StringBuffer stringBuffer = new StringBuffer();
+        for (InOutStorageInfo inOutStorageInfo : inOutStorageInfos) {
+            stringBuffer.append(inOutStorageInfo.getDescription() + "<br/>");//拼接出入库信息
+        }
+        if (deliveryInfo != null) {
+            stringBuffer.append(deliveryInfo.getDescription() + "<br/>");//拼接配送信息
+        }
+        if (signInfo != null) {
+            stringBuffer.append(signInfo.getDescription() + "<br/>");//拼接签收信息
+        }
+        return stringBuffer.toString();
+    }
 
     @OneToOne
     @JoinColumn(name = "C_DELIVERY_INFO_ID")
-    private DeliveryInfo deliveryInfo;
+    private DeliveryInfo deliveryInfo;//配送信息
 
     @OneToOne
     @JoinColumn(name = "C_SIGN_INFO_ID")
-    private SignInfo signInfo;
+    private SignInfo signInfo;//签收信息
 
     @Column(name = "C_STATUS")
-    // 出入库中转、到达网点、开始配置、正常签收、异常
+    // 出入库中转、到达网点、开始配送、正常签收、异常
     private String status;
 
     @Column(name = "C_OUTLET_ADDRESS")

@@ -36,8 +36,8 @@
         };
 
         function doAdd() {
-            $("#courierForm").clear();
             $('#addWindow').window("open");
+            $("#courierForm").clear();
         }
 
         function doEdit() {
@@ -50,11 +50,11 @@
                 $("#courierForm").form('load', row);
                 $("#standardId").combobox('select', row.standard.id);
                 $("#addWindow").window('open');
-                /*alert(row.id)
+                alert(row.id)
                  $.post("../../courier_findById.action",{"id":row.id},function(result) {
                  alert(result);
 
-                 })*/
+                 })
 
             }
         }

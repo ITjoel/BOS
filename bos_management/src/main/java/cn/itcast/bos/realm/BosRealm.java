@@ -35,7 +35,7 @@ public class BosRealm extends AuthorizingRealm {
     private PermissionService permissionService;
 
 
-    //权限
+    //授权
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("权限......");

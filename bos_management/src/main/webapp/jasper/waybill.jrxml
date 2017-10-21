@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="waybill" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20"
+              rightMargin="20" topMargin="20" bottomMargin="20" uuid="9ec929f4-18a0-48eb-943e-09de0fcdb9de">
+    <property name="ireport.zoom" value="1.6105100000000019"/>
+    <property name="ireport.x" value="0"/>
+    <property name="ireport.y" value="0"/>
+    <parameter name="company" class="java.lang.String"/>
+    <queryString>
+        <![CDATA[select * from T_WAY_BILL]]>
+    </queryString>
+    <field name="C_ID" class="java.math.BigDecimal"/>
+    <field name="C_ACTLWEIT" class="java.lang.Double"/>
+    <field name="C_ARRIVE_CITY" class="java.lang.String"/>
+    <field name="C_DELTAG" class="java.lang.String"/>
+    <field name="C_FEEITEMNUM" class="java.math.BigDecimal"/>
+    <field name="C_FLOADREQR" class="java.lang.String"/>
+    <field name="C_GOODS_TYPE" class="java.lang.String"/>
+    <field name="C_NUM" class="java.math.BigDecimal"/>
+    <field name="C_PAY_TYPE_NUM" class="java.lang.String"/>
+    <field name="C_REC_ADDRESS" class="java.lang.String"/>
+    <field name="C_REC_COMPANY" class="java.lang.String"/>
+    <field name="C_REC_MOBILE" class="java.lang.String"/>
+    <field name="C_REC_NAME" class="java.lang.String"/>
+    <field name="C_REMARK" class="java.lang.String"/>
+    <field name="C_SEND_ADDRESS" class="java.lang.String"/>
+    <field name="C_SEND_COMPANY" class="java.lang.String"/>
+    <field name="C_SEND_MOBILE" class="java.lang.String"/>
+    <field name="C_SEND_NAME" class="java.lang.String"/>
+    <field name="C_SEND_PRO_NUM" class="java.lang.String"/>
+    <field name="C_SIGN_STATUS" class="java.math.BigDecimal"/>
+    <field name="C_VOL" class="java.lang.String"/>
+    <field name="C_WAY_BILL_NUM" class="java.lang.String"/>
+    <field name="C_WAY_BILL_TYPE" class="java.lang.String"/>
+    <field name="C_WEIGHT" class="java.lang.Double"/>
+    <field name="C_ORDER_ID" class="java.math.BigDecimal"/>
+    <field name="C_REC_AREA_ID" class="java.lang.String"/>
+    <field name="C_SEND_AREA_ID" class="java.lang.String"/>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="51" splitType="Stretch">
+            <staticText>
+                <reportElement stretchType="RelativeToTallestObject" x="171" y="18" width="221" height="33"
+                               uuid="07f5cb7e-031f-41b8-875d-18c46697e898"/>
+                <textElement>
+                    <font fontName="华文楷体" size="24" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H"
+                          isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[物流管理系统报表]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="419" y="31" width="100" height="20" uuid="a623ba48-a4cb-4712-8cbe-ba78d055707c"/>
+                <textFieldExpression><![CDATA[$P{company}]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+    <pageHeader>
+        <band splitType="Stretch"/>
+    </pageHeader>
+    <columnHeader>
+        <band splitType="Stretch"/>
+    </columnHeader>
+    <detail>
+        <band height="126" splitType="Stretch">
+            <staticText>
+                <reportElement stretchType="RelativeToTallestObject" x="17" y="0" width="100" height="20"
+                               uuid="fb3b731c-6d9c-4053-99f9-0586e8b14031"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[运单号]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="17" y="20" width="71" height="20"
+                               uuid="2216e9cc-2e66-434f-811d-54a914d07c75"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{C_WAY_BILL_NUM}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement stretchType="RelativeToTallestObject" x="119" y="0" width="100" height="20"
+                               uuid="85960a20-dc45-4a2e-9529-167449cd743a"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[寄件人]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="119" y="20" width="100" height="20"
+                               uuid="f9de1b97-8900-4dfb-931e-d00b2374d294"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{C_SEND_NAME}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement stretchType="RelativeToTallestObject" x="219" y="0" width="100" height="20"
+                               uuid="1e6a2a64-3de1-400d-ab83-9eddc5c9c396"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[寄件地址]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="219" y="20" width="100" height="41"
+                               uuid="87110fb3-2326-4da1-983e-d25b535e5caf"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{C_SEND_ADDRESS}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement stretchType="RelativeToTallestObject" x="319" y="0" width="100" height="20"
+                               uuid="04359e9a-f88a-4be4-80d6-636aab282042"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[收件人]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="319" y="20" width="100" height="20"
+                               uuid="850e9dc1-9303-4452-9516-6694818398ed"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{C_REC_NAME}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement stretchType="RelativeToTallestObject" x="419" y="0" width="100" height="20"
+                               uuid="285d73eb-abed-4159-9286-5b6b0a2ab3bf"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[收件地址]]></text>
+            </staticText>
+            <textField>
+                <reportElement stretchType="RelativeToTallestObject" x="419" y="20" width="100" height="41"
+                               uuid="5b11b1a5-9794-408d-ba85-8dc680870afe"/>
+                <textElement>
+                    <font fontName="华文楷体" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{C_REC_ADDRESS}]]></textFieldExpression>
+            </textField>
+        </band>
+        <band height="43"/>
+    </detail>
+    <columnFooter>
+        <band splitType="Stretch"/>
+    </columnFooter>
+    <pageFooter>
+        <band splitType="Stretch"/>
+    </pageFooter>
+    <summary>
+        <band height="32" splitType="Stretch"/>
+    </summary>
+</jasperReport>
